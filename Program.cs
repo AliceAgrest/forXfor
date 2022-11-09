@@ -92,7 +92,162 @@ namespace MyApp // Note: actual namespace depends on the project name.
             }*/
 
             //answer 8
-            int
+            /*
+            int n7 = 5;
+            int x = 1;
+            for (int i = 1; i <= n7; i++)
+            {
+                Console.Write(i);
+                x++;
+                for (int m = x; m < x+4; m++)
+                {
+                    Console.Write(m);
+                }
+                Console.WriteLine();
+            }
+            //answer 9
+            int n8 = 5;
+            int m = 0;
+            for(int i = 1;i <= 21;i = i+n8)
+            {
+                Console.Write(i);
+                m = i + 1;
+                for(int x = m;x < m + 4;x++)
+                {
+                    Console.Write($" {x} ");
+                }
+                Console.WriteLine();
+            }
+
+            //answer 10
+            int m = 1;
+            for(int i = 1;i <= 5; i++)
+            {
+                Console.Write(i);
+                m++;
+                for(int x = 1;x < i;x++)
+                {
+                    //int a = i--;
+                    //Console.Write(i);
+                    Console.Write(m);
+                }
+                Console.WriteLine();
+            }
+
+            //answer 12
+            for (int i = 1; i <= 5; i++)
+            {
+                for (int x = 0; x < i; x++)
+                {
+                    Console.Write(i);
+                }
+                Console.WriteLine();
+            }
+
+            //answer 13
+            for (int i = 5; i >= 1; i--)
+            {
+                for (int x = 0; x < i; x++)
+                {
+                    Console.Write(i);
+                }
+                Console.WriteLine();
+            }
+
+            //answer 14
+            for (int i = 1; i <= 5 ; i++)
+            {
+                for (int x = 5; x >= i; x--)
+                {
+                    Console.Write(i);
+                }
+                Console.WriteLine();
+            }
+
+            //answer 15
+            for (int i = 5; i >= 1; i--)
+            {
+                for (int x = 6; x > i; x--)
+                {
+                    Console.Write(i);
+                }
+                Console.WriteLine();
+            }
+
+            //answer 16
+            int m = 0;
+            for(int i = 1;i <= 5;i++)
+            {
+                m++;
+                for(int x = 1;x <= m;x++)
+                {
+                    Console.Write(x);
+                }
+                Console.WriteLine();
+            }
+
+            //answer 17
+            int m = 6;
+            for (int i = 1; i <= 5; i++)
+            {
+                m--;
+                for (int x = 1; x <= m; x++)
+                {
+                    Console.Write(x);
+                }
+                Console.WriteLine();
+            }*/
+
+            //answer 18
+            int m = 1;
+            for(int i = 1;i <= 5; i++)
+            {
+                Console.Write(i);
+                m++;
+                for(int x = 1;x < i;x++)
+                {
+                    Console.Write(i);
+                }
+                Console.WriteLine();
+            }
+
+            /*
+            //answer 21
+            int m = 6;
+            for (int i = 1; i <= 5; i++)
+            {
+                m--;
+                for (int x = 5; x >= m; x--)
+                {
+                    Console.Write(x);
+                }
+                Console.WriteLine();
+            }
+            //answer 22
+            int m = 0;
+            for (int i = 1; i <= 5; i++)
+            {
+                m++;
+                for (int x = 5; x >= m; x--)
+                {
+                    Console.Write(x);
+                }
+                Console.WriteLine();
+            }
+            
+         //answer 23
+         int n22 = 5;
+         int x = 1;
+         for (int i = 1; i <= n7; i++)
+         {
+             Console.Write(i);
+             x++;
+             for (int m = x; m <= n7; m++)
+             {
+                 Console.Write(m);
+              }
+              Console.WriteLine();
+          }*/
 
             Console.ReadLine();
         }
