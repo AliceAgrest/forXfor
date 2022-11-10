@@ -1,13 +1,12 @@
 ﻿using System;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace MyApp 
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             //answer 1
-            /*
             int n = 5;
             for(int i = 0;i < n;i++)
             {
@@ -39,20 +38,18 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 Console.WriteLine();
             }
             //answer 4
-            int n3 = 3;
-            Console.WriteLine("11111");
-            for(int i = 1;i <= n3;i++)
+            int n3 = 5;
+            for (int i = 0; i < n3; i++)
             {
-                for(int x = 1;x <= 5;x++)
+                for (int x = 0; x < 5; x++)
                 {
-                    if (x == 1 || x == 5)
-                        Console.Write(x % 2);
+                    if (i == 0|| x == 0|| i == n3-1 || x == n3-1)
+                        Console.Write(1);
                     else
-                        Console.Write("0");
+                        Console.Write(0);
                 }
                 Console.WriteLine();
             }
-            Console.WriteLine("11111");
             
             //answer 5
             int n4 = 5;
@@ -89,10 +86,9 @@ namespace MyApp // Note: actual namespace depends on the project name.
                     Console.Write(x);
                 }
                 Console.WriteLine();
-            }*/
+            }
 
             //answer 8
-            /*
             int n7 = 5;
             int x = 1;
             for (int i = 1; i <= n7; i++)
@@ -120,16 +116,27 @@ namespace MyApp // Note: actual namespace depends on the project name.
             }
 
             //answer 10
-            int m = 1;
-            for(int i = 1;i <= 5; i++)
+            for(int i = 5;i >= 1;i--)
             {
-                Console.Write(i);
-                m++;
-                for(int x = 1;x < i;x++)
+                for(int x = 5; x >= 1;x--)
                 {
-                    //int a = i--;
-                    //Console.Write(i);
-                    Console.Write(m);
+                    if (i >= x)
+                        Console.Write(i);
+                    else
+                        Console.Write(x);
+                }
+                Console.WriteLine();
+            }
+
+            //answer 11
+            for (int i = 1; i <= 5; i++)
+            {
+                for (int x = 1; x <= 5; x++)
+                {
+                    if (i >= x)
+                        Console.Write(i);
+                    else
+                        Console.Write(x);
                 }
                 Console.WriteLine();
             }
@@ -199,31 +206,41 @@ namespace MyApp // Note: actual namespace depends on the project name.
             }*/
 
             //answer 18
-            int m = 1;
-            for(int i = 1;i <= 5; i++)
+            int m = 0;
+            for(int i = 1;i <= 5;i++)
             {
-                Console.Write(i);
-                m++;
-                for(int x = 1;x < i;x++)
+                m = i;
+                for(int x = 1;x <= i; x++)
                 {
-                    Console.Write(i);
+                    Console.Write(m);
+                    m--;
                 }
                 Console.WriteLine();
             }
-
-            /*
-            //answer 21
-            int m = 6;
-            for (int i = 1; i <= 5; i++)
+            //answer 19
+            int m = 0;
+            for(int i = 5;i >= 1;i--)
             {
-                m--;
-                for (int x = 5; x >= m; x--)
+                m = i;
+                for(int x = 1;x <= i; x++)
+                {
+                    Console.Write(m);
+                    m--;
+                }
+                Console.WriteLine();
+            }
+                
+            //answer 20
+            for (int i = 5; i >= 1; i--)
+            {
+                for (int x = 5; x >= i; x--)
                 {
                     Console.Write(x);
                 }
                 Console.WriteLine();
             }
-            //answer 22
+
+            //answer 21
             int m = 0;
             for (int i = 1; i <= 5; i++)
             {
