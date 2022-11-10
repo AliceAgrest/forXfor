@@ -203,7 +203,7 @@ namespace MyApp
                     Console.Write(x);
                 }
                 Console.WriteLine();
-            }*/
+            }
 
             //answer 18
             int m = 0;
@@ -264,7 +264,7 @@ namespace MyApp
                  Console.Write(m);
               }
               Console.WriteLine();
-          }*/
+          }
 
             Console.ReadLine();
         }
